@@ -42,3 +42,5 @@ _load_settings "$HOME/.zsh/configs"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
+[[ -f /Users/jward/.sentinel/current/bin/sentinel ]] && eval "$(/Users/jward/.sentinel/current/bin/sentinel init -)"
