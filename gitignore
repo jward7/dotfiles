@@ -7,12 +7,12 @@
 .env
 .git/
 /bower_components/
-/log
+# /log
 /node_modules/
-/tmp
+# /tmp
 /vendor
 db/*.sqlite3
 log/*.log
 rerun.txt
 tags
-tmp/**/*
+# tmp/**/*
